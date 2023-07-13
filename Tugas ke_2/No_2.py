@@ -1,7 +1,7 @@
-total_liter = int(input("Masukkan Total Liter : "))
-ukuran_tahu = int(input("Masukkan Ukuran Tahu (cm) : "))
-harga_1_liter_susu = int(input("Masukkan Harga 1 Liter Susu Kedelai : "))
-margin_harga_jual = int(input("Margin Harga Jual (%) : "))
+total_liter = float(input("Masukkan Total Liter : "))
+ukuran_tahu = float(input("Masukkan Ukuran Tahu (cm) : "))
+harga_1_liter_susu = float(input("Masukkan Harga 1 Liter Susu Kedelai : "))
+margin_harga_jual = float(input("Margin Harga Jual (%) : "))
 
 #Konversi liter ke cm^3
 volume_susu_kedelai = total_liter * 1000  
